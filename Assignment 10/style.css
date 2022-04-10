@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.first{
+    background-color: rgb(226, 223, 223);
+    width: auto;
+    height: 300px;
+}
+.second{
+    background-color: whitesmoke;
+    width: auto;
+    height: 1400px;
+}
+.wrapper{
+    background-color: rgb(226, 223, 223);
+    width: auto;   
+}
+.third{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+}
+.third img:hover{
+    transform: scale(1.25);
+    transition: 0.8s;
+}
+.third img{
+    width: 300px;
+    position: relative;
+    bottom: 40px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    padding: 50px;
+}
+
